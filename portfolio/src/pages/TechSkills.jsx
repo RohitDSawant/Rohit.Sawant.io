@@ -1,10 +1,10 @@
 import React from "react";
-import { skills } from "../assets/skills_data/skills";
+import { skills } from "../assets/data/datafordisplay";
 
 const TechSkills = () => {
   return (
     <>
-      <section id="techskills" className="border mb-36">
+      <section id="techskills" className="border mb-16 py-10">
         <h4 className="font-semibold text-center mb-20">TECH STACKS</h4>
         <div className="w-8/12 m-auto gap-5 flex  items-center flex-wrap justify-around ">
           {skills &&
